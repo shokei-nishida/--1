@@ -1,2 +1,10 @@
 [InternetShortcut]
 URL=http://localhost:8892/notebooks/%E3%81%82%E3%81%82.ipynb
+a=0
+b=1
+
+for i in range (10):
+    a=b
+    b=a+b
+    
+    print(a,b)  
